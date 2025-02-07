@@ -2,6 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 import xlwt
 
+
 # Create a new Workbook
 workbook = xlwt.Workbook(encoding='utf-8')
 table = workbook.add_sheet('data')
